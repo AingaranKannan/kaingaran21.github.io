@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <i class="fas fa-code">01</i>
+                <h3>Web Development</h3>
+                <p>Our Web developers create custom web application solutions, deliver a web presence to help you grow your brand identity!</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <i>02</i>
+                <h3>App Development</h3>
+                <p>We design and develop mobile apps that ship rich small screen experiences that help businesses for better operational efficiency and engagement.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <i class="fas fa-paint-brush">03</i>
+                <h3>UI /UX Design</h3>
+                <p>Right from concept, architecture, visual identity & UI/UX design, our team delivers dazzling experiences to maxiize end user engagement</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1,
+        });
+    </script>
+
+</body>
+
+</html>
